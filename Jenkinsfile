@@ -1,4 +1,4 @@
-ode {
+node {
 
     checkout scm
 
