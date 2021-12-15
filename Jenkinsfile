@@ -1,12 +1,12 @@
-node {
+// node {
 
-    checkout scm
+//     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
+//     docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
 
-        def customImage = docker.build("ahmetbekan/dockerpython")
+//         def customImage = docker.build("ahmetbekan/dockerpython")
 
-        /* Push the container to the custom Registry */
-        customImage.push()
-    }
-}
+//         /* Push the container to the custom Registry */
+//         customImage.push()
+//     }
+// }
